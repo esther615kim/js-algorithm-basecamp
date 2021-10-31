@@ -1,4 +1,4 @@
-2021.10.15 
+2021.10.15
 ### BFS & DFS 개념 학습 ✨ (동빈책 + 구글링)
 
 #### Stack in JS
@@ -42,7 +42,7 @@ const dequeue = () => queue.shift();
 #### Recursion
 - a recursive function calls itself until it doesn't.
 - always has a 'stop' condition to stop the function from calling itself.
-- 
+-
 ```js
 function sumOfDigits(num) {
   if (num == 0) {
@@ -55,7 +55,7 @@ function sumOfDigits(num) {
 
 #### Referenecs
 
-Stack and Queue in JavaScript 
+Stack and Queue in JavaScript
 https://www.telerik.com/blogs/stack-queue-javascript
 
 큐(블로그)
@@ -63,3 +63,5 @@ https://velog.io/@longroadhome/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-JS%EB%A1%9C-
 
 Recursion
 https://www.javascripttutorial.net/javascript-recursive-function/
+
+

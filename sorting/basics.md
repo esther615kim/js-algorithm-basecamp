@@ -64,8 +64,56 @@ const insertionSort = arr => {
 ```
 
 
+##### 3.Quick Sort
+- one of the most used and popular algorithms (similar to sort() in JS)
+- select a 'pivot' element and compare all elements and arrange them in an asecending order. Move elements less than the 'pivot'element to the left and grater pivot is to the right.
+
+
+```js
+function partition(items, left, right) {
+    var pivot   = items[Math.floor((right + left) / 2)], //middle element
+        i       = left, //left pointer
+        j       = right; //right pointer
+    while (i <= j) {
+        while (items[i] < pivot) {
+            i++;
+        }
+        while (items[j] > pivot) {
+            j--;
+        }
+        if (i <= j) {
+            swap(items, i, j); //swap two elements
+            i++;
+            j--;
+        }
+    }
+    return i;
+}
+```
+
+### by using recursion
+```js
+function quickSort(items, left, right) {
+    var index;
+    if (items.length > 1) {
+        index = partition(items, left, right); //index returned from partition
+        if (left < index - 1) { //more elements on the left side of the pivot
+            quickSort(items, left, index - 1);
+        }
+        if (index < right) { //more elements on the right side of the pivot
+            quickSort(items, index, right);
+        }
+    }
+    return items;
+}
+// first call to quick sort
+var result = quickSort(items, 0, items.length - 1);
+```
+
 ##### References
 `Selection Sort`
 https://medium.com/javascript-algorithms/javascript-algorithms-selection-sort-54da919d0513
 `Insertion Sort`
 https://dev.to/ryan_dunton/insertion-sorting-for-beginners-in-js------fkg
+'Quick Sort'
+https://www.guru99.com/quicksort-in-javascript.html

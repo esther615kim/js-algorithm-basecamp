@@ -6,13 +6,13 @@
 
 ## Goals ✨
 
-- set up my own data base to mprove your data structure and algorithm skills
+- set up my own data base to improve your data structure and algorithm skills
 
-- not aim to solve all the given questions.
+- not aim to solve all the given questions
 
 ## Algorithm basecamp means...
 
-- reference notes built up with what I've studied to tackle algorithm and data base quetions.
+- reference notes built up with what I've studied to tackle algorithm and data base quetions
 ---
 
 ### Weekly WIL🖋
@@ -32,13 +32,13 @@
 
 ## How to participate
 
-### fork the repository and edit the `README.md` and send a `Pull Request` as soon as you start learning for the week.
+#### Fork the repository and edit the `README.md` and send a `Pull Request` as soon as you start learning for the week.
 
-### Add a link to what you've leared in `README.md`. Then, commit and push it.
+#### Add a link to what you've leared in `README.md`. Then, commit and push it.
 
-### Weekly group review on Sunday night @ 22:00 
+#### Weekly group review on Sunday night @ 22:00 
 
-### Share your opinion, ask questions and give feedbacks to the other members' codes.
+#### Share your opinion, ask questions and give feedbacks to the other members' codes.
 
-### Merge PRs after the group review session.
+#### Merge PRs after the group review session.
 

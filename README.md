@@ -6,9 +6,9 @@
 
 ## Goals ✨
 
-- set up my own data base to improve your data structure and algorithm skills
+- set up my own data base to enhance data structure and algorithm solving skills
 
-- not aim to solve all the given questions
+- not aim to solve all the given questions for the week...!
 
 ## Algorithm basecamp means...
 

@@ -6,14 +6,8 @@
 
 ## Goals ✨
 
-- set up my own data base to enhance data structure and algorithm solving skills
+- pratice the DSA fundamentals and cover the major DSA topics participating in a 12-week group study
 
-- not aim to solve all the given questions for the week...!
-
-## Algorithm basecamp means...
-
-- reference notes built up with what I've studied to tackle algorithm and data base quetions
----
 
 ### Weekly WIL🖋
 
